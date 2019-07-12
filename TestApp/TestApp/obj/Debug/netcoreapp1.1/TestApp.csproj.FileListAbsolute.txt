@@ -1,0 +1,10 @@
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\bin\Debug\netcoreapp1.1\TestApp.deps.json
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\bin\Debug\netcoreapp1.1\TestApp.runtimeconfig.json
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\bin\Debug\netcoreapp1.1\TestApp.runtimeconfig.dev.json
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\obj\Debug\netcoreapp1.1\TestApp.csprojAssemblyReference.cache
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\obj\Debug\netcoreapp1.1\TestApp.csproj.CoreCompileInputs.cache
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\obj\Debug\netcoreapp1.1\TestApp.AssemblyInfo.cs
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\bin\Debug\netcoreapp1.1\TestApp.dll
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\bin\Debug\netcoreapp1.1\TestApp.pdb
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\obj\Debug\netcoreapp1.1\TestApp.dll
+F:\Drews Stuff\Masters\csharp-advanced-topics-course\TestApp\TestApp\obj\Debug\netcoreapp1.1\TestApp.pdb

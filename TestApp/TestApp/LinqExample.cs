@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -5,7 +6,7 @@ namespace LinqAndLambdas
 {
     public class LinqTest
     {
-        static void Main(string[] args)
+        static void Test(string[] args)
         {
             List<Person> people = new List<Person>()
             {
@@ -53,7 +54,7 @@ namespace LinqAndLambdas
         public Person(string nam, int hgt, int wgt, Gender gdr)
         {
             Name = nam;
-            height = hgt;
+            Height = hgt;
             Weight = wgt;
             Gender = gdr;
         }
