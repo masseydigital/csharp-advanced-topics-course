@@ -97,3 +97,16 @@ Extension methods allow you to extend the functionality of a type by adding a .M
 The _this_ keyword in the method parameters makes the method an extension method.
 
 Extension method generally live in their own class.
+
+## Generics
+_Generics_ are methods, classes, variables that can apply to more than one type.  You can use them to create methods which apply to more common functionality
+that different types might have, i.e. comparing two ints, strings, objects, etc.
+
+_T_ is an accepted type name for generics.
+
+The _IComparable_ interface can be used in conjunction with the _where_ keyword to make a generic method have the ability to use the CompareTo extension method.
+
+_List_ is an example of where generic types are used.
+
+The _dynamic_ keyword allows you to provide runtime type checking instead of having to check at compile time.
+s
