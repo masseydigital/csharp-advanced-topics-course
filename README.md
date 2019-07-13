@@ -126,3 +126,17 @@ _Action_ is another built-in delegate type.  Actions only take inputs (no return
 
 _Anonymous Methods_ allow you to define more complex delegate (actions/funcs) behavior using a lambda expression.  You can chain anonymous methods by calling anonymous methods within anonymous methods.
 
+## Events
+_Events_ enable a class or object to notify other classes or objects when something of interest occurs.  Events follow the _publisher-subscriber_ model where the sending class 
+is called the _publisher_ and the receiving class is called the _subscriber_.
+
+Anatomy of an event:
+1) Delegate matching the Event signature
+2) Event of the same type as the Delegate
+3) Raise the Event at some point
+
+Best practice is to use the suffix, _Handler_, for delegates associated with events.
+
+With events, we can use the _EventHandler_ to replace the delegate keyword.  You can pass event args with EventHandler by using triangle brackets to pass in the args object.
+
+You can put a _?_ at the end of event to check if it has subscribers before firing the event.  This replaces the if(event != null) code.
