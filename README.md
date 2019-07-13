@@ -50,6 +50,10 @@ Lambda Operator: =>
 (Input) => Work on the Input
 i.e. N => ((N%2)==1);
 
+The input does not need to explicitly state its type, but you can add it along with surrounding parenthesis to make it explicit.  You can also have multiple input types that can be defined with parenthesis, as well as no inputs
+in the case of Actions.
+
+
 ```csharp
     using System.Collections.Generic;
     using System.Linq;
@@ -109,4 +113,16 @@ The _IComparable_ interface can be used in conjunction with the _where_ keyword 
 _List_ is an example of where generic types are used.
 
 The _dynamic_ keyword allows you to provide runtime type checking instead of having to check at compile time.
-s
+
+
+## Delegates
+_Delegates_ are methods as variables.  Methods that use a delegate must have the same signature.
+
+Delegates can be chained together to perform more complex operations.
+
+_func_ is a built-in delegate type that allows you to pass in inputs and have an output into a single line.
+
+_Action_ is another built-in delegate type.  Actions only take inputs (no return types, void).
+
+_Anonymous Methods_ allow you to define more complex delegate (actions/funcs) behavior using a lambda expression.  You can chain anonymous methods by calling anonymous methods within anonymous methods.
+
