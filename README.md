@@ -140,3 +140,22 @@ Best practice is to use the suffix, _Handler_, for delegates associated with eve
 With events, we can use the _EventHandler_ to replace the delegate keyword.  You can pass event args with EventHandler by using triangle brackets to pass in the args object.
 
 You can put a _?_ at the end of event to check if it has subscribers before firing the event.  This replaces the if(event != null) code.
+
+## Asynchronous Programming
+Asynchronous programming allows you to perform actions in their own threads or running loops without interrupting the normal flow of an application, i.e. databased querying, authentication, etc.
+
+The _Task_ class from _System.Threading.Tasks_ can be used to define a piece of code you want to thread.  To use tasks, you pass in a method which has no inputs and is void.
+
+.Start starts the task, .Wait waits for the task to finish before continuing.
+
+You can also use _Task.Factory_ to create tasks.  When you do this, you no longer need .Start method.
+
+You can also use _Task.Run_ with an Action to create tasks.
+
+You can use anonymous methods to pass in parameters into the function.
+
+You can get a return from a Task by using triangle brackets and the type.  The _Result_ property in the Task class gives you the return.
+
+The _async_ keyword can be used to make a method asynchronous.  Async methods must be void.
+
+It is best practice to end async methods with Async suffix.
